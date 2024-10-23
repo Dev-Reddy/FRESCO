@@ -5,7 +5,6 @@ import numpy as np
 import base64
 from io import BytesIO
 from PIL import Image
-import matplotlib.pyplot as plt
 from src.controller.analyze_image import imageResults
 import os
 from dotenv import load_dotenv
@@ -69,5 +68,5 @@ def analyze_image():
 
 port = os.getenv("PORT") or 3100
 
-if __name__ == "__main__":
-    socketio.run(app, host="0.0.0.0", port=3100, debug=True)
+# if __name__ == "__main__":
+#     socketio.run(app, host="0.0.0.0", port=3100)

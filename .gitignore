@@ -4,3 +4,4 @@ flipkart_grid_key.pem
 src/controller/__pycache__
 src/scripts/__pycache__
 .DS_Store
+.vercel
