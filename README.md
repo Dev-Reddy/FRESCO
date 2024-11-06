@@ -45,13 +45,22 @@ The following fruits and vegetables are supported for freshness detection:
     cd FLIPKART_GRID_6.0_ROBOTICS
     ```
 
-2. **Install dependencies**:
-    Create a virtual environment and install required dependencies:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    ```
+2. **Install Dependencies**
+Create a virtual environment and install the required dependencies.
+
+#### macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+#### Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
 
 3. **Run the Flask App**:
     ```bash
